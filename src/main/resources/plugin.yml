@@ -1,0 +1,12 @@
+name: Ribbon
+description: Debug utility plugin for Paper
+version: '0.1.0'
+main: dev.m1sk9.ribbon.Ribbon
+api-version: '1.21'
+author: m1sk9
+website: https://github.com/m1sk9/Ribbon
+
+commands:
+  ribbon:
+    description: Ribbon Main Command
+    aliases: [ ri ]
