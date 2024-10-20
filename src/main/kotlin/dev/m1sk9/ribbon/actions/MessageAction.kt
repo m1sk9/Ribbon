@@ -23,7 +23,7 @@ class MessageAction(private val targetPlayer: Player) {
     }
 
     fun sendError(message: String) {
-        targetPlayer.sendMessage(Component.text(prefix + message).color(TextColor.color(0xFF0000)))
+        targetPlayer.sendActionBar(Component.text(prefix + message).color(TextColor.color(0xFF0000)))
         targetPlayer.playSound(Sound.sound(org.bukkit.Sound.BLOCK_NOTE_BLOCK_BASS, Sound.Source.PLAYER, 1.0f, 1.0f))
     }
 
