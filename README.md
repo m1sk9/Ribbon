@@ -4,9 +4,17 @@
 
 Ribbon is a debug utility plugin for Paper. (Inspired by [Chuzume-s-Toolbox](https://github.com/Chuzume/Chuzume-s-Toolbox))
 
-https://github.com/user-attachments/assets/bfbc94c5-57ac-41aa-b12a-0b1b82996322
+https://github.com/user-attachments/assets/b2e1bbf4-0f89-4e8a-aada-b085d6f4c94d
 
 *Support Minecraft Version: 1.21.X*.
+
+## Function
+
+- Instant game mode switching (Creative / Survival)
+- OP toggle
+- Instant recovery (strength / satiety / active status effects)
+- Switching flight modes
+- Entity removal from the world
 
 ## Introduction
 
