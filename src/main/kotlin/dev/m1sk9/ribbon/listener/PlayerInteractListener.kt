@@ -35,6 +35,7 @@ class PlayerInteractListener : Listener {
             item.isSimilar(ClearPlayerWorldEntities().getItemStack()) -> {
                 TargetPlayer(player).clearPlayerWorldEntities()
             }
+            else -> return
         }
 
         event.isCancelled = true

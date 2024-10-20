@@ -2,19 +2,19 @@
 
 # Ribbon
 
-Ribbon is a debug utility plugin for Paper. (Inspired by [chuzume's chuzu_toolbox](https://github.com/Chuzume/Chuzume-s-Toolbox))
+Ribbon is a debug utility plugin for Paper. (Inspired by [Chuzume-s-Toolbox](https://github.com/Chuzume/Chuzume-s-Toolbox))
 
 *Support Minecraft Version: 1.21.X*.
 
 ## Introduction
 
-1. Download the latest version of Ribbon from [GitHub]() or [Modrinth]().
+1. Download the latest version of Ribbon from [GitHub](https://github.com/m1sk9/Ribbon/releases/latest) or [Modrinth](https://modrinth.com/project/ribbon).
 2. Move the downloaded file to the `plugins` folder.
 3. Start the server.
 
 ## Usage
 
-- Get items by `/ribbon items` or `/ribbon items spawn`.
+- Get items by `/ribbon`.
 - Each item can be used by right-clicking on it. How to use the item depends on the item. For details, see the Lore of the item.
 
 ### Notes
