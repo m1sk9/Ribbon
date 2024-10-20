@@ -1,3 +1,5 @@
+[日本語版](./README-ja.md)
+
 # Ribbon
 
 Ribbon is a debug utility plugin for Paper. (Inspired by [chuzume's chuzu_toolbox](https://github.com/Chuzume/Chuzume-s-Toolbox))
