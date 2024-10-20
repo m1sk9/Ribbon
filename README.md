@@ -4,6 +4,8 @@
 
 Ribbon is a debug utility plugin for Paper. (Inspired by [Chuzume-s-Toolbox](https://github.com/Chuzume/Chuzume-s-Toolbox))
 
+https://github.com/user-attachments/assets/bfbc94c5-57ac-41aa-b12a-0b1b82996322
+
 *Support Minecraft Version: 1.21.X*.
 
 ## Introduction
