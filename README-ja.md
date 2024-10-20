@@ -2,7 +2,17 @@
 
 Ribbon は Paper 用のデバッグユーティリティプラグインです. (インスパイア: ちゅずめさんの [Chuzume-s-Toolbox](https://github.com/Chuzume/Chuzume-s-Toolbox))
 
+https://github.com/user-attachments/assets/b2e1bbf4-0f89-4e8a-aada-b085d6f4c94d
+
 *Support Minecraft Version: 1.21.X*
+
+## 機能
+
+- ゲームモードの即時切り替え (クリエイティブ / サバイバル)
+- OP の切り替え
+- 即時回復 (体力 / 満腹度 / アクティブなステータス効果)
+- 飛行モードの切り替え
+- ワールド上からのエンティティ削除
 
 ## 導入
 
