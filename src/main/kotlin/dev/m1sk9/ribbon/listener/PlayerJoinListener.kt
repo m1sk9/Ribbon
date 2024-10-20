@@ -12,7 +12,7 @@ class PlayerJoinListener : Listener {
     fun onJoin(event: PlayerJoinEvent) {
         val player = event.player
         MessageAction(player).apply {
-            send("このサーバーでは Ribbon が有効になっています。デバッグアイテムを入手には [/ribbon items] を実行してください。")
+            send("Ribbon is enabled on this server. Please run [/ribbon] to get debug items.")
         }
     }
 }

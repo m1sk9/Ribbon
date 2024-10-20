@@ -1,12 +1,15 @@
 package dev.m1sk9.ribbon
 
-import dev.m1sk9.ribbon.item.ExecuteItem
-import dev.m1sk9.ribbon.item.SwitchGamemodeItem
+import dev.m1sk9.ribbon.item.*
 
 class ExecuteItemManager {
 
     private val items = mutableMapOf(
-        SwitchGamemodeItem().getName() to SwitchGamemodeItem()
+        SwitchGamemodeItem().getName() to SwitchGamemodeItem(),
+        SwitchOpItem().getName() to SwitchOpItem(),
+        SwitchFlyItem().getName() to SwitchFlyItem(),
+        SetFullHealthItem().getName() to SetFullHealthItem(),
+        ClearPlayerWorldEntities().getName() to ClearPlayerWorldEntities(),
     )
 
     fun getItem(name: String): ExecuteItem? {
