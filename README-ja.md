@@ -28,13 +28,13 @@ https://github.com/user-attachments/assets/b2e1bbf4-0f89-4e8a-aada-b085d6f4c94d
 
 - `/ribbon` でアイテムを取得します. 各アイテムは右クリック or **シフトしながら** 右クリックで使用できます. それぞれ効果が異なります.
 
-<!-- image -->
+![image](https://github.com/user-attachments/assets/fe20c694-f356-448a-a9a5-39f3f1ff6d95)
 
 ### サウンドボード
 
 - `/ribbon soundboard` で Minecraft のサウンドボードを開くことができます. インベントリから再生したいサウンドを選択して再生できます.
 
-<!-- image -->
+![image](https://github.com/user-attachments/assets/49a1e4a0-4eb2-40c2-86bb-a76750b3accd)
 
 ### 注意事項
 
