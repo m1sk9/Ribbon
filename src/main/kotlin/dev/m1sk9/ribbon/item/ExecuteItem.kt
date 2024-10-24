@@ -2,6 +2,7 @@ package dev.m1sk9.ribbon.item
 
 import net.kyori.adventure.text.Component
 import org.bukkit.enchantments.Enchantment
+import org.bukkit.entity.Player
 import org.bukkit.inventory.ItemStack
 
 abstract class ExecuteItem(
@@ -31,5 +32,7 @@ abstract class ExecuteItem(
         item.itemMeta = meta
         return defaultSetting(item)
     }
+
+    abstract fun execute(player: Player)
 
 }
