@@ -8,6 +8,7 @@ class ExecuteItemManager {
         SwitchGamemodeItem().getName() to SwitchGamemodeItem(),
         SwitchOpItem().getName() to SwitchOpItem(),
         SwitchFlyItem().getName() to SwitchFlyItem(),
+        SwitchDifficultyItem().getName() to SwitchDifficultyItem(),
         SetFullHealthItem().getName() to SetFullHealthItem(),
         ClearEntitiesItem().getName() to ClearEntitiesItem(),
     )
