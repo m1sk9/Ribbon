@@ -8,8 +8,9 @@ class ExecuteItemManager {
         SwitchGamemodeItem().getName() to SwitchGamemodeItem(),
         SwitchOpItem().getName() to SwitchOpItem(),
         SwitchFlyItem().getName() to SwitchFlyItem(),
+        SwitchDifficultyItem().getName() to SwitchDifficultyItem(),
         SetFullHealthItem().getName() to SetFullHealthItem(),
-        ClearPlayerWorldEntities().getName() to ClearPlayerWorldEntities(),
+        ClearEntitiesItem().getName() to ClearEntitiesItem(),
     )
 
     fun getItem(name: String): ExecuteItem? {
