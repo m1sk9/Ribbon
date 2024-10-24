@@ -15,6 +15,8 @@ https://github.com/user-attachments/assets/b2e1bbf4-0f89-4e8a-aada-b085d6f4c94d
 - Instant recovery (strength / satiety / active status effects)
 - Switching flight modes
 - Entity removal from the world
+- Toggle difficulty (Normal / Peaceful)
+- XP Control
 
 ## Introduction
 
@@ -24,8 +26,17 @@ https://github.com/user-attachments/assets/b2e1bbf4-0f89-4e8a-aada-b085d6f4c94d
 
 ## Usage
 
-- Get items by `/ribbon`.
-- Each item can be used by right-clicking on it. How to use the item depends on the item. For details, see the Lore of the item.
+### Debugging Tools
+
+- Get items in `/ribbon`. Each item can be used by right-clicking or **shifting** right-clicking. Each item has a different effect.
+
+<! -- image -->
+
+### sound board
+
+- You can open the Minecraft soundboard at `/ribbon soundboard`. You can select the sound you want to play from your inventory.
+
+<! -- image -->
 
 ### Notes
 
