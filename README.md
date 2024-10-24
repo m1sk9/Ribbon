@@ -30,13 +30,13 @@ https://github.com/user-attachments/assets/b2e1bbf4-0f89-4e8a-aada-b085d6f4c94d
 
 - Get items in `/ribbon`. Each item can be used by right-clicking or **shifting** right-clicking. Each item has a different effect.
 
-<! -- image -->
+![image](https://github.com/user-attachments/assets/7f8b4d6d-1df3-4288-a7b5-e42cef04d613)
 
 ### sound board
 
 - You can open the Minecraft soundboard at `/ribbon soundboard`. You can select the sound you want to play from your inventory.
 
-<! -- image -->
+![image](https://github.com/user-attachments/assets/3a02037e-1f3d-49c4-8a4f-6cbc573af86a)
 
 ### Notes
 
