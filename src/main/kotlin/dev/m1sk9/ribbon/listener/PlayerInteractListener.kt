@@ -1,7 +1,6 @@
 package dev.m1sk9.ribbon.listener
 
-import dev.m1sk9.ribbon.actions.TargetPlayer
-import dev.m1sk9.ribbon.item.*
+import dev.m1sk9.ribbon.ExecuteItemManager
 import org.bukkit.Material
 import org.bukkit.event.EventHandler
 import org.bukkit.event.EventPriority
@@ -19,25 +18,14 @@ class PlayerInteractListener : Listener {
             return
         }
 
-        when {
-            item.isSimilar(SwitchGamemodeItem().getItemStack()) -> {
-                TargetPlayer(player).switchGameMode()
-            }
-            item.isSimilar(SwitchOpItem().getItemStack()) -> {
-                TargetPlayer(player).switchOp()
-            }
-            item.isSimilar(SwitchFlyItem().getItemStack()) -> {
-                TargetPlayer(player).switchFly()
-            }
-            item.isSimilar(SetFullHealthItem().getItemStack()) -> {
-                TargetPlayer(player).setFullHealth()
-            }
-            item.isSimilar(ClearPlayerWorldEntities().getItemStack()) -> {
-                TargetPlayer(player).clearPlayerWorldEntities()
-            }
-            else -> return
-        }
+        val executeItems = ExecuteItemManager().getItems()
 
-        event.isCancelled = true
+        executeItems.forEach {
+            if (!item.isSimilar(it.getItemStack())) {
+                return@forEach
+            }
+            it.execute(player)
+            event.isCancelled = true
+        }
     }
 }
