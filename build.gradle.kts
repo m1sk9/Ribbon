@@ -14,11 +14,15 @@ repositories {
     maven("https://oss.sonatype.org/content/groups/public/") {
         name = "sonatype"
     }
+    maven("https://repo.xenondevs.xyz/releases") {
+        name = "xenondevs"
+    }
 }
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.21.1-R0.1-SNAPSHOT")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+    implementation("xyz.xenondevs.invui:invui:1.39")
 }
 
 val targetJavaVersion = 21
