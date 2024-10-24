@@ -11,6 +11,7 @@ class ExecuteItemManager {
         SwitchDifficultyItem().getName() to SwitchDifficultyItem(),
         SetFullHealthItem().getName() to SetFullHealthItem(),
         ClearEntitiesItem().getName() to ClearEntitiesItem(),
+        ControlXPItem().getName() to ControlXPItem(),
     )
 
     fun getItem(name: String): ExecuteItem? {
