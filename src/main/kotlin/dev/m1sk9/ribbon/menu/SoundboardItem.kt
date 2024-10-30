@@ -8,7 +8,8 @@ import org.bukkit.event.inventory.InventoryClickEvent
 import xyz.xenondevs.invui.item.ItemProvider
 import xyz.xenondevs.invui.item.builder.ItemBuilder
 import xyz.xenondevs.invui.item.impl.AbstractItem
-import java.util.*
+
+import java.util.Locale
 
 class SoundboardItem(private val targetSound: Sound): AbstractItem() {
 
