@@ -1,5 +1,9 @@
 # Changelog
 
+## [v0.2.1](https://github.com/m1sk9/Ribbon/releases/tag/v0.2.1) (2024/10/31)
+
+- [#13](https://github.com/m1sk9/Ribbon/pull/13): **Fixed problem of using `*` in importing JVM libraries.**
+
 ## [v0.2.0](https://github.com/m1sk9/Ribbon/releases/tag/v0.2.0) (2024/10/24)
 
 - [#10](https://github.com/m1sk9/Ribbon/pull/10): **Soundboard is here!**
