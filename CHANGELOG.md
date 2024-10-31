@@ -1,5 +1,9 @@
 # Changelog
 
+## [v0.2.2](https://github.com/m1sk9/Ribbon/releases/tag/v0.2.2) (2024/10/31)
+
+- [#16](https://github.com/m1sk9/Ribbon/pull/16): **Fixed the problem of not working `ClearEntitiesItem`.**
+
 ## [v0.2.1](https://github.com/m1sk9/Ribbon/releases/tag/v0.2.1) (2024/10/31)
 
 - [#13](https://github.com/m1sk9/Ribbon/pull/13): **Fixed problem of using `*` in importing JVM libraries.**
