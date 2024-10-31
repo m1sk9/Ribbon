@@ -18,14 +18,10 @@ class ClearEntitiesItem : ExecuteItem(
     }
 
     override fun execute(player: Player) {
-        player.world.entities.removeIf {
-            it !is Player
-        }
         player.apply {
-            world.entities.removeIf {
-                it !is Player
+            world.entities.forEach {
+                if (it !is Player) it.remove()
             }
-
             sendActionBar(Component.text("§a[Ribbon] Removed all entities in the world!"))
             playSound(Sound.sound(org.bukkit.Sound.BLOCK_NOTE_BLOCK_FLUTE, Sound.Source.PLAYER, 1f, 1f))
         }
