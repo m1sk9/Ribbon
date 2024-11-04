@@ -7,7 +7,7 @@ class Ribbon : JavaPlugin() {
     override fun onEnable() {
         ListenerManager(this).init()
         this.getCommand("ribbon")?.setExecutor(RibbonCommand(this))
-        logger.info("Ribbon v0.2.2 enabled!")
+        logger.info("Ribbon v0.3.0 enabled!")
     }
 
     override fun onDisable() {

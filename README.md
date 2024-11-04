@@ -1,12 +1,11 @@
-[日本語版](./README-ja.md)
-
 # Ribbon
 
 Ribbon is a debug utility plugin for Paper. (Inspired by [Chuzume-s-Toolbox](https://github.com/Chuzume/Chuzume-s-Toolbox))
 
 https://github.com/user-attachments/assets/b2e1bbf4-0f89-4e8a-aada-b085d6f4c94d
 
-*Support Minecraft Version: 1.21.X*.
+- Support Version: 1.21.3
+- Tested Version: 1.21 - 1.21.1
 
 ## Function
 
@@ -32,7 +31,7 @@ https://github.com/user-attachments/assets/b2e1bbf4-0f89-4e8a-aada-b085d6f4c94d
 
 ![image](https://github.com/user-attachments/assets/7f8b4d6d-1df3-4288-a7b5-e42cef04d613)
 
-### sound board
+### Soundboard
 
 - You can open the Minecraft soundboard at `/ribbon soundboard`. You can select the sound you want to play from your inventory.
 
