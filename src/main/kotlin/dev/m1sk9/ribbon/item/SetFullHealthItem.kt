@@ -21,7 +21,7 @@ class SetFullHealthItem : ExecuteItem(
 
     override fun execute(player: Player) {
         val playerAttribute = Pair(
-            player.getAttribute(Attribute.GENERIC_MAX_HEALTH)!!.value,
+            player.getAttribute(Attribute.MAX_HEALTH)!!.value,
             20
         )
         player.apply {
