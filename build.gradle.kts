@@ -22,7 +22,7 @@ repositories {
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.21.1-R0.1-SNAPSHOT")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-    implementation("xyz.xenondevs.invui:invui:1.40")
+    implementation("xyz.xenondevs.invui:invui:1.41")
 }
 
 val targetJavaVersion = 21
