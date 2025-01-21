@@ -1,5 +1,12 @@
 # Changelog
 
+## [v0.3.0](https://github.com/m1sk9/Ribbon/releases/tag/v0.3.0) (2025/01/22)
+
+- Breaking changes:
+  - [#24](https://github.com/m1sk9/Ribbon/pull/24): **Support for Minecraft 1.21.4**
+    - The plugin will not work with versions below 1.21.4.
+    - Soundboard has been removed due to destructive changes in the Paper API.
+
 ## [v0.2.2](https://github.com/m1sk9/Ribbon/releases/tag/v0.2.2) (2024/10/31)
 
 - [#16](https://github.com/m1sk9/Ribbon/pull/16): **Fixed the problem of not working `ClearEntitiesItem`.**
