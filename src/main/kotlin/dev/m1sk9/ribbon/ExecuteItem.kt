@@ -1,6 +1,7 @@
-package dev.m1sk9.ribbon.item
+package dev.m1sk9.ribbon
 
 import net.kyori.adventure.text.Component
+import org.bukkit.Material
 import org.bukkit.enchantments.Enchantment
 import org.bukkit.entity.Player
 import org.bukkit.inventory.ItemStack
@@ -8,21 +9,10 @@ import org.bukkit.inventory.ItemStack
 abstract class ExecuteItem(
     private val name: String,
     private val lore: List<String>,
-    private val baseItem: ItemStack,
+    private val originalItem: Material
 ) {
-
-    protected lateinit var defaultSetting: (ItemStack) -> ItemStack
-
-    fun getName(): String {
-        return name
-    }
-
-    fun getBaseItem(): ItemStack {
-        return baseItem
-    }
-
-    fun getItemStack(): ItemStack {
-        val item = baseItem.clone()
+    fun build(): ItemStack {
+        val item = ItemStack(originalItem)
         val meta = item.itemMeta
 
         meta.displayName(Component.text(name))
@@ -30,9 +20,12 @@ abstract class ExecuteItem(
         meta.addEnchant(Enchantment.UNBREAKING, 1, true)
 
         item.itemMeta = meta
-        return defaultSetting(item)
+        return item
     }
 
-    abstract fun execute(player: Player)
+    fun getItemStack(): ItemStack {
+        return build()
+    }
 
+    abstract fun execute(executePlayer: Player)
 }
