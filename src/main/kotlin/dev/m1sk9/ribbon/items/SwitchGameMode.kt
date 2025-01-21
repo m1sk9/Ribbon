@@ -6,7 +6,7 @@ import org.bukkit.GameMode
 import org.bukkit.Material
 import org.bukkit.entity.Player
 
-class SwitchGameMode : ExecuteItem (
+class SwitchGameMode : ExecuteItem(
     "Switch GameMode",
     listOf("Switch your gamemode!"),
     Material.DIAMOND_SWORD

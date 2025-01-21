@@ -5,7 +5,7 @@ import dev.m1sk9.ribbon.utils.SendMessageEffect
 import org.bukkit.Material
 import org.bukkit.entity.Player
 
-class SwitchOperator : ExecuteItem (
+class SwitchOperator : ExecuteItem(
     "Switch Operator",
     listOf("Switch your operator"),
     Material.STICK

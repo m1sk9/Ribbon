@@ -6,7 +6,7 @@ import org.bukkit.Difficulty
 import org.bukkit.Material
 import org.bukkit.entity.Player
 
-class SwitchDifficulty : ExecuteItem (
+class SwitchDifficulty : ExecuteItem(
     "Switch Difficulty",
     listOf("Switch the world difficulty"),
     Material.POPPY

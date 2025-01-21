@@ -1,12 +1,7 @@
 package dev.m1sk9.ribbon
 
-import arrow.core.Option
 import dev.m1sk9.ribbon.utils.ExecuteItemEffect
 import dev.m1sk9.ribbon.utils.SendMessageEffect
-import net.kyori.adventure.text.Component
-import net.kyori.adventure.text.format.TextColor
-import org.bukkit.Bukkit
-import org.bukkit.Material
 import org.bukkit.event.EventHandler
 import org.bukkit.event.EventPriority
 import org.bukkit.event.Listener
