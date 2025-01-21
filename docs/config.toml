@@ -1,0 +1,19 @@
+base_url = "https://m1sk9.github.io/ribbon"
+title = "Ribbon docs"
+description = "Documentation for Ribbon"
+default_language = "en"
+theme = "zola_easydocs_theme"
+compile_sass = true
+build_search_index = true
+
+[markdown]
+highlight_code = true
+highlight_theme = "base16-ocean-light"
+
+[extra]
+logo = "https://cdn.modrinth.com/data/djosvswE/4d522e9b9245e61ad889944fc4a88b1ab7efa2e2_96.webp"
+release = "https://api.github.com/repos/m1sk9/Ribbon/releases/latest"
+favicon = "https://cdn.modrinth.com/data/djosvswE/4d522e9b9245e61ad889944fc4a88b1ab7efa2e2_96.webp"
+easydocs_logo_always_clickable = false
+easydocs_uglyurls = false
+easydocs_heading_threshold = 5
