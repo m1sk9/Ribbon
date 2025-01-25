@@ -1,8 +1,12 @@
+> [!IMPORTANT]
+>
+> This branch is a backport version for Minecraft 1.18.2.
+
 # Ribbon
 
 Ribbon is a debug utility plugin for Paper.
 
-*Support Minecraft Version: 1.21.4*.
+~~*Support Minecraft Version: 1.21.4*.~~ n - Backport for Minecraft 1.18.2
 
 ## Function
 
