@@ -1,8 +1,8 @@
 name: Ribbon
 description: Debug utility plugin for Paper
-version: '0.3.0'
+version: '0.3.0-bp-1-18-2'
 main: dev.m1sk9.ribbon.Ribbon
-api-version: '1.21'
+api-version: '1.18'
 author: m1sk9
 website: https://github.com/m1sk9/Ribbon
 

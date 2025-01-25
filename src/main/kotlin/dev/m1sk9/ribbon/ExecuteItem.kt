@@ -17,7 +17,7 @@ abstract class ExecuteItem(
 
         meta.displayName(Component.text(name))
         meta.lore(lore.map { Component.text(it) })
-        meta.addEnchant(Enchantment.UNBREAKING, 1, true)
+        meta.addEnchant(Enchantment.DURABILITY, 1, true)
 
         item.itemMeta = meta
         return item
