@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://m1sk9.github.io/ribbon/sitemap.xml
