@@ -1,5 +1,9 @@
 # Changelog
 
+## [v0.3.1](https://github.com/m1sk9/Ribbon/releases/tag/v0.3.1) (2025/01/28)
+
+- [#33](https://github.com/m1sk9/Ribbon/pull/33): **Fixed so that items with reduced durability value do not lose their effects.**
+
 ## [v0.3.0](https://github.com/m1sk9/Ribbon/releases/tag/v0.3.0) (2025/01/22)
 
 - Breaking changes:
