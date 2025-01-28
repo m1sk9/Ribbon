@@ -1,10 +1,10 @@
 plugins {
-    kotlin("jvm") version "2.1.0"
+    kotlin("jvm") version "2.1.10"
     id("com.github.johnrengelman.shadow") version "8.1.1"
 }
 
 group = "dev.m1sk9"
-version = "v0.3.0-bp-1-18-2"
+version = "v0.3.1-bp-1-18-2"
 
 repositories {
     mavenCentral()
