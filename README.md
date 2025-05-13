@@ -4,6 +4,14 @@ Ribbon is a debug utility plugin for Paper.
 
 *Support Minecraft Version: 1.21.4*.
 
+> [!IMPORTANT]
+> 
+> Ribbon is sunsetting with v0.3.2!
+> 
+> This plugin is no longer maintained and will not receive any updates.
+>
+> If you want to continue using Ribbon, please fork the repository and maintain it yourself.
+
 ## Function
 
 - Instant game mode switching (Creative / Survival)

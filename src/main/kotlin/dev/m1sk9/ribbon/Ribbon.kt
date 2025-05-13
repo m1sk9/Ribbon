@@ -7,7 +7,19 @@ class Ribbon : JavaPlugin() {
     override fun onEnable() {
         getCommand("ribbon")?.setExecutor(Command())
         server.pluginManager.registerEvents(Listener(), this)
-        logger.info("Ribbon v0.3.1 enabled!")
+        logger.warning {
+            """
+            -------------------------------------------------
+            Ribbon is sunsetting with v0.3.2!
+            This plugin is no longer maintained and will not receive any updates.
+            If you want to continue using Ribbon, please fork the repository and maintain it yourself.
+
+            GitHub: https://github.com/m1sk9/Ribbon
+            Modrinth: https://modrinth.com/plugin/ribbon
+            ------------------------------------------------
+            """.trimMargin()
+        }
+        logger.info("Ribbon v0.3.2 enabled!")
     }
 
     override fun onDisable() {
